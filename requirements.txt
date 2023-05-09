@@ -7,3 +7,4 @@ openai
 streamlit
 pdf2image
 pytesseract
+poppler

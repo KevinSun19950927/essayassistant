@@ -50,7 +50,7 @@ def qa_result():
     os.environ["OPENAI_API_KEY"] = openai_api_key
     if upload_file is not None:
         saved_path = os.path.join("../", upload_file.name)
-
+        print(saved_path)
         with open(saved_path, 'wb') as f:
             f.write(upload_file.getbuffer())
         if query:
