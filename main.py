@@ -19,7 +19,7 @@ chain_type = st.selectbox(
 num_chunks = st.slider('Number of chunks:', 0, 100, 20)
 
 
-query = st.text_input('What can essay assistant help you?', 'What are examples of good data science teams')
+query = st.text_input('What can essay assistant help you?', 'put your query here...')
 
 
 def qa(file_path, query, chain_type, num_chunks):
